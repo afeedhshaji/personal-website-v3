@@ -58,5 +58,18 @@ $(document).ready(function () {
         document.body.appendChild(css);
     };
     /* Typing Effect Ends */
+
+    /* Baffle JS */
+    const text = baffle(".main-heading");
+    text.set({
+        characters: 'zpxzVpasdfh86136░█▒ ░░░█▓ >░░ ▓/▒█▓ █ █>█▒sayg▒ ░░░█▓ >yf',
+        speed: 95
+    });
+    text.start();
+
+    // Reveal your text over 1000ms
+    text.reveal(70000);
+
+
 });
 
