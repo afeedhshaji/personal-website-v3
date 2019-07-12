@@ -28,10 +28,7 @@
         <div class="center-wrap">
             <div class="center-content">
                 <h1 class="main-heading">Afeedh Shaji</h1>
-                <p>I'm a
-                    <span class="txt-rotate" data-period="1200"
-                        data-rotate='["Developer.", "ML/DL Enthusiast.", "Programmer."]'></span></p>
-
+                I'm a <span id="typed"></span></br>
                 Pursuing B.Tech in Computer Science Engineering </br>at <a href="https://www.fullcontact.com">NIT
                     Calicut</a>.<br />
 
@@ -52,6 +49,9 @@
         </div>
     </div>
 
+
+
+
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -64,6 +64,19 @@
         crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
     <script src='https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+
+    <script>
+        var typed = new Typed('#typed', {
+            strings: ["Developer.^1000 ", "ML/DL Enthusiast.^1000 ", "Programmer.^1000 "],
+            stringsElement: null,
+            loop: true,
+            typeSpeed: 80,
+            backSpeed: 80,
+
+        });
+    </script>
+
 </body>
 
 </html>
