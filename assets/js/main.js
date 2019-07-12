@@ -3,7 +3,7 @@ $(document).ready(function () {
     /* Baffle JS */
     const text = baffle(".main-heading");
     text.set({
-        characters: 'ADHEJAISEEDJAFEDHJIAFEE',
+        characters: 'Afeedh Shaji',
         speed: 95
     });
     text.start();
