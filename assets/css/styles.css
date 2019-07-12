@@ -32,6 +32,12 @@ a:hover {
   width: 100%;
 }
 
+.typer-wrapper {
+  margin: 0px;
+  padding: 5px;
+  padding-left: 0;
+}
+
 .center-content {
   display: block;
   margin: 0px auto;
