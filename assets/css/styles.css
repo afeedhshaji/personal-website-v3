@@ -60,10 +60,6 @@ ul {
   color: #67e4e5;
 }
 
-ul.social-icons {
-  margin-top: 10px;
-}
-
 .social-icons li {
   vertical-align: top;
   display: inline;
@@ -81,7 +77,8 @@ ul.social-icons {
 .fa-linkedin,
 .fa-github,
 .fa-behance,
-.fa-dribbble {
+.fa-dribbble,
+.fa-gitlab {
   padding: 10px 12px;
   padding-left: 0px;
   -o-transition: 0.5s;
@@ -127,4 +124,8 @@ ul.social-icons {
 
 .fa-github:hover {
   color: #6e5494;
+}
+
+.fa-gitlab:hover {
+  color: #e2432a;
 }
