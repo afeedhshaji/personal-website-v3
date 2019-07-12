@@ -13,7 +13,7 @@ $(document).ready(function () {
 
     /* Typed JS */
     var typed = new Typed('#typed', {
-        strings: ["Developer.^1000 ", "ML/DL Enthusiast.^1000 ", "Programmer.^1000 "],
+        strings: ["Developer.^1000 ", "ML/DL Enthusiast.^1000 ", "Programmer.^1000 ", "Designer.^1000 "],
         stringsElement: null,
         loop: true,
         typeSpeed: 80,
