@@ -95,7 +95,9 @@ ul {
 .fa-github,
 .fa-behance,
 .fa-dribbble,
-.fa-gitlab {
+.fa-gitlab,
+.fa-folder-o,
+.bottom-right-corner {
   padding: 10px 12px;
   padding-left: 0px;
   -o-transition: 0.5s;
@@ -145,4 +147,20 @@ ul {
 
 .fa-gitlab:hover {
   color: #e2432a;
+}
+
+.bottom-right-corner:hover {
+  color: #e2432a;
+}
+
+.bottom-right-corner {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  background: url("../../assets/img/file.png");
+}
+
+.bottom-right-corner .fa-folder-o {
+  font-size: 35px;
+  text-align: right;
 }
