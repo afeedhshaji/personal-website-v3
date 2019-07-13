@@ -7,8 +7,6 @@ $(document).ready(function () {
         speed: 95
     });
     text.start();
-
-    // Reveal your text over 1000ms
     text.reveal(70000);
 
     /* Typed JS */
@@ -18,7 +16,6 @@ $(document).ready(function () {
         loop: true,
         typeSpeed: 80,
         backSpeed: 80,
-
     });
 
 });
