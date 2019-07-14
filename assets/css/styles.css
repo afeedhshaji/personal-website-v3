@@ -440,6 +440,12 @@ ul {
   }
 }
 
+@media (max-width: 480px) {
+  #site {
+    transform: translateY(0px);
+  }
+}
+
 /* Iron Man ANimation */
 .preloader {
   position: fixed;
