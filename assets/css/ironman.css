@@ -1,15 +1,6 @@
-/* Iron Man ANimation */
-.preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #000;
-    z-index: 999999;
-  }
-  
-  .container-iron {
+/* Iron Man Animation */
+
+.container-iron {
     position: absolute;
     top: 30%;
     left: 50%;
@@ -649,4 +640,6 @@
       opacity: 0;
     }
   }
+
+/* Credits : https://codepen.io/crisgon/pen/bLVgpq */
   
