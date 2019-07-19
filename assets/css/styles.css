@@ -59,8 +59,8 @@ p {
 
 #site {
   display: table;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   /* transform: translateY(-135px); */
 }
 
@@ -344,12 +344,6 @@ ul {
     display: inline-block;
   }
 }
-/* 
-@media (max-width: 480px) {
-  #site {
-    transform: translateY(0px);
-  }
-} */
 
 .featured-projects .project {
   display: -webkit-box;
@@ -529,5 +523,11 @@ a:hover {
 @media screen and (max-width: 480px) {
   .job__time {
     font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #site {
+    transform: translateY(-100px);
   }
 }
