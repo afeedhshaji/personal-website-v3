@@ -61,7 +61,7 @@ p {
   display: table;
   height: 100vh;
   width: 100vw;
-  transform: translateY(-135px);
+  /* transform: translateY(-135px); */
 }
 
 .center {
@@ -344,12 +344,12 @@ ul {
     display: inline-block;
   }
 }
-
+/* 
 @media (max-width: 480px) {
   #site {
     transform: translateY(0px);
   }
-}
+} */
 
 .featured-projects .project {
   display: -webkit-box;
