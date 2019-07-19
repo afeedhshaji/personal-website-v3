@@ -1,13 +1,6 @@
 $(document).ready(function () {
 
-    //Preloader
-    $(window).on("load", function () {
-        preloaderFadeOutTime = 200;
-        setTimeout(() => {
-            var preloader = $('.preloader');
-            preloader.fadeOut(preloaderFadeOutTime);
-        }, 4000);
-    });
+
 
     /* Baffle JS */
 
