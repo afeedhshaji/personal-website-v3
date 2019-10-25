@@ -12,7 +12,7 @@ $(document).ready(function () {
         });
         text.start();
         text.reveal(70000);
-    }, 3200);
+    }, 2500);
 
     setTimeout(() => {
         /* Typed JS */
