@@ -612,3 +612,14 @@ a:hover {
 .arrow-link:hover {
   color: #89b9c2 !important;
 }
+
+.featureListItem_icon {
+  color: #b8c587;
+  position: absolute;
+  left: -1.5em;
+  line-height: 1.8 !important;
+}
+
+.fa-check {
+  margin-right: 8px;
+}
