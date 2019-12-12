@@ -17,14 +17,10 @@
 
 
     <!--CSS-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" />
 
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="assets/css/ironman.css" />
-    <link rel="stylesheet" href="assets/css/fonts.css" />
 
 
 </head>
@@ -56,32 +52,35 @@
                     <h1 class="main-heading">Hello! I'm Afeedh Shaji</h1>
                     </h1>
                     <div class="typer-wrapper">I'm a <span id="typed"></span></br></div><br />
-                    <p>Pursuing B.Tech in Computer Science Engineering at <a class=highlight-link
-                            href="http://nitc.ac.in/" target=_blank>NIT
-                            Calicut</a>.<br /></p>
+                    <p>Pursuing B.Tech in Computer Science Engineering at NIT
+                        Calicut.<br /></p>
 
                     <p>
                         Find my repos and contributions at <a href="https://github.com/afeedh"
-                            class="social-icon left-padding" target=_blank><i class="fa fa-github"
+                            class="social-icon left-padding" target=_blank><i class="fab fa-github"
                                 aria-hidden="true"></i></a>
-                        <a href="https://gitlab.com/afeedh" class="social-icon" target=_blank> <i class="fa fa-gitlab"
+                        <a href="https://gitlab.com/afeedh" class="social-icon" target=_blank> <i class="fab fa-gitlab"
                                 aria-hidden="true"></i></a>
                     </p>
 
                     <p>
-                        <a class=highlight-link href="projects.html" target=_blank>Projects</a> at a glance.
+                        <a class="button" href="projects.html" target=_blank> <span
+                                class="fa fa-external-link-square-alt button_icon"></span><span
+                                class="button_text">Projects</span></a> at
+                        a glance.
                     </p>
 
                     <p>I design too. Sometimes I post them at
                         <a href="https://www.behance.net/afeedhdetr1631" class="social-icon left-padding"
-                            target=_blank><i class="fa fa-behance" aria-hidden="true"></i></a>
+                            target=_blank><i class="fab fa-behance" aria-hidden="true"></i></a>
                         <a href="https://dribbble.com/afeedh" class="social-icon" target=_blank><i
-                                class="fa fa-dribbble" aria-hidden="true"></i></a>
+                                class="fab fa-dribbble" aria-hidden="true"></i></a>
                     </p>
 
-                    <p>Are you hiring? Then do check out my <a class=highlight-link
+                    <p>Are you hiring? Then do check out my <a class="button"
                             href="https://drive.google.com/drive/folders/1T-iw_EQ855OkOriDr_n1O1PvmW9HZxsl?usp=sharing"
-                            target=_blank>Résumé</a>.
+                            target=_blank><span class="fa fa-external-link-square-alt button_icon"></span><span
+                                class="button_text">Résumé</span></a>
                     </p>
 
                 </div>
@@ -91,9 +90,9 @@
         <footer class="footer">
             <div class="footer__copyright">
                 <div class="bottom">
-                    Copyright 2019, Afeedh Shaji
+                    &copy; 2019, Afeedh Shaji
                     <a href="https://github.com/afeedh" class="social-icon left-padding" target=_blank>
-                        <i class="fa fa-github" aria-hidden="true"></i>
+                        <i class="fab fa-github" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>
@@ -124,31 +123,9 @@
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
     <script src='https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
     <script src="assets/js/main.js"></script>
-
-    <script>
-        $(document).ready();
-        //Fade out preloader
-        $(window).on("load", function () {
-            var preloaderFadeOutTime = 300;
-            function hidePreloader() {
-                var preloader = $('.preloader');
-                preloader.fadeOut(preloaderFadeOutTime);
-            }
-            setTimeout(() => {
-                hidePreloader();
-            }, 3000);
-        });
-
-    </script>
 
 </body>
 

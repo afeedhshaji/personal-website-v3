@@ -1,6 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Space+Mono:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  color: #c7c9d1;
 }
 
 *,
@@ -12,15 +16,12 @@ html {
 
 html,
 body {
-  background-color: #000000;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #161822;
   color: #67e4e5;
-  font-family: Apercu, "Source Sans Pro", Roboto, Arial, sans-serif;
-  font-size: 20px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.12rem;
   height: 100%;
   margin: 0px;
-  line-height: 1.5;
   width: 100%;
   overflow-x: hidden;
 }
@@ -37,6 +38,7 @@ a {
 p {
   margin: 0px;
   padding: 0px;
+  margin-top: 11px;
 }
 
 .padding-10 {
@@ -53,7 +55,7 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #000;
+  background-color: #161822;
   z-index: 999999;
 }
 
@@ -102,7 +104,7 @@ p {
 .highlight-link:hover {
   -webkit-box-shadow: inset 0 -30px 0 0 #67e4e5;
   box-shadow: inset 0 -30px 0 0 #67e4e5;
-  color: #000;
+  color: #161822;
 }
 
 ul {
@@ -147,39 +149,47 @@ ul {
   -moz-transition: 0.5s;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  background-color: #000000;
+  background-color: #161822000;
 }
 
 .fa-instagram:hover {
   color: #e4405f;
+  cursor: pointer;
 }
 
 .fa-twitter:hover {
   color: #55acee;
+  cursor: pointer;
 }
 
 .fa-linkedin:hover {
   color: #0077b5;
+  cursor: pointer;
 }
 
 .fa-envelope:hover {
   color: #dd4b39;
+  cursor: pointer;
 }
 
 .fa-behance:hover {
   color: #053eff;
+  cursor: pointer;
 }
 
 .fa-dribbble:hover {
   color: #ea4c89;
+  cursor: pointer;
 }
 
 .fa-github:hover {
   color: #6e5494;
+  cursor: pointer;
 }
 
 .fa-gitlab:hover {
   color: #e2432a;
+  cursor: pointer;
 }
 
 .bottom-right-corner {
@@ -323,7 +333,7 @@ ul {
 }
 
 .footer__links a .text {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   display: inline;
   letter-spacing: 1px;
 }
@@ -349,9 +359,6 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 100px;
-  margin-left: -5%;
-  width: 125%;
 }
 
 @media screen and (max-width: 1280px) {
@@ -443,35 +450,40 @@ ul {
   line-height: 1.3;
 }
 
-.other-projects .project {
+.project {
   max-width: 600px;
   margin-bottom: 50px;
 }
 
-.other-projects .project__name {
+.project__name {
   margin-bottom: 10px;
 }
 
-.other-projects .project p {
-  font-size: 0.9rem;
+.project p {
+  font-size: 0.8rem;
   margin-bottom: 20px;
 }
 
-.other-projects .project__used__item {
+.project__used__item {
   display: inline-block;
   margin: 3px 3px 3px 0;
   font-family: Inconsolata, monospace;
-  font-size: 0.75rem;
+  color: #161822;
+  font-size: 0.65rem;
   font-weight: 700;
-  padding: 2px 7px;
+  padding: 5px 7px;
   border-radius: 3px;
-  color: #007bff;
-  border: 1px solid #007bff;
+  background-color: #89b9c2 !important;
   background: 0 0;
 }
 
-.other-projects .project__used__item:first-of-type {
+.project__used__item:first-of-type {
   margin-left: 0;
+}
+
+.project__used__item:hover {
+  background-color: #96c5cf !important;
+  cursor: pointer;
 }
 
 .main-heading {
@@ -500,7 +512,6 @@ a:hover {
   bottom: 2px;
   margin-left: 15px;
   content: "";
-  background: url(../img/arrow.png) no-repeat center;
   background-size: 100%;
   width: 15px;
   height: 15px;
@@ -514,7 +525,7 @@ a:hover {
 }
 
 .job__time {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-family: Inconsolata, monospace;
   padding-bottom: 10px;
   padding-left: 0;
@@ -530,4 +541,74 @@ a:hover {
   #site {
     transform: translateY(-100px);
   }
+}
+
+.button_icon {
+  font-size: 0.8rem;
+  margin-right: 0.5em;
+}
+
+.button_text {
+  font-size: 0.8rem;
+}
+
+.button {
+  display: inline-block;
+  margin: 3px 3px 3px 0;
+  font-family: Inconsolata, monospace;
+  color: #161822;
+  font-weight: 700;
+  padding: 3px 10px 3px 10px;
+  border-radius: 3px;
+  background-color: #89b9c2 !important;
+  background: 0 0;
+}
+
+.button:hover {
+  background-color: #96c5cf !important;
+  cursor: pointer;
+}
+
+.wrapper {
+  min-height: 100vh;
+  widows: 100vw;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.row {
+  margin-top: 40px;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
+.project {
+  background-color: #1f2233;
+  box-shadow: 0px 7px 12px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 100%;
+  height: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 8px;
+  transition: all 0.2s ease-in;
+}
+
+.project:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.project-inner {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.arrow-link:hover {
+  color: #89b9c2 !important;
 }
