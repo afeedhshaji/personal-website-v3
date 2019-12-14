@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready();
   //Fade out preloader
   $(window).on("load", function() {
     var preloaderFadeOutTime = 300;
@@ -37,4 +37,4 @@ $(document).ready(function() {
       backSpeed: 80
     });
   }, 600);
-});
+
